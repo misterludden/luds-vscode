@@ -1,0 +1,11 @@
+{
+    "vim.insertModeKeyBindings": [
+     {
+         "before": ["j", "j"],
+         "after": ["<esc>"]
+     }
+],
+"editor.wordWrap": "on",
+"window.zoomLevel": 0,
+
+}
