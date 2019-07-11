@@ -1,25 +1,22 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "vim.insertModeKeyBindings": [
-     {
-         "before": ["j", "j"],
-         "after": ["<esc>"]
-     }
-],
-"editor.wordWrap": "on",
-"window.zoomLevel": 1,
-"[javascript]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-},
-"explorer.confirmDragAndDrop": false,
-"editor.formatOnSave": true,
-"vim.highlightedyank.enable": true,
-"vim.startInInsertMode": true,
-"editor.hover.delay": 500,
-"editor.hover.sticky": false,
-"editor.tabCompletion": "on",
-"editor.formatOnPaste": true,
-"files.insertFinalNewline": true,
-"vim.mouseSelectionGoesIntoVisualMode": false,
-"vim.overrideCopy": false
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 1,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.formatOnSave": true,
+    "editor.hover.delay": 500,
+    "editor.hover.sticky": false,
+    "editor.tabCompletion": "on",
+    "explorer.confirmDragAndDrop": false,
+    "files.insertFinalNewline": true,
+    "vim.insertModeKeyBindings": [{
+        "before": ["j", "j"],
+        "after": ["<esc>"]
+    }],
+    "vim.highlightedyank.enable": true,
+    "vim.startInInsertMode": true,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "vim.useCtrlKeys": false
 }
